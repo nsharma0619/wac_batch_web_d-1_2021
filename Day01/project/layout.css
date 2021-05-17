@@ -1,0 +1,41 @@
+html, body{
+    height:100%;
+    margin: 0px;
+}
+
+#nav{
+    height: 10%;
+    background-color: #F1F1F1;
+    margin: 0 0 25px 0;
+}
+
+#nav > h1{
+    margin: 0px;
+    text-align: center;
+}
+
+#mid{
+    height: 100%;
+}
+
+.menu_bar{
+    height: 100%;
+    width:15%;
+    background-color: #F1F1F1;
+    float: left;
+    margin : 0 15px;
+}
+
+.main{
+    height: 100%;
+    width: 65%;
+    background-color: #F1F1F1;
+    float: left;
+}
+
+
+#footer{
+    height: 10%;
+    background-color: #F1F1F1;
+    margin: 0 0 25px 0;
+}

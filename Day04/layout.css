@@ -1,0 +1,33 @@
+html, body{
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #f1f1f1;
+    height: 10%;
+}
+
+.navbar{
+    background-color: red;
+    height: 10%;
+}
+
+.sidebar{
+    background-color: yellow;
+    width: 15%;
+    height: 70%;
+    display: inline-block;
+}
+
+.main{
+    background-color: orangered;
+    width: 69%;
+    height: 70%;
+    display: inline-block;
+}
+
+.footer{
+    background-color: red;
+    height: 10%;
+}

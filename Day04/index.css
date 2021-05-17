@@ -1,0 +1,115 @@
+/* .heading1{
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px;
+    font-size: 56px;
+    font-family: 'Goblin One', cursive;
+} */
+
+/* p{
+    text-align: center;
+    color: green;
+    text-indent: 50px;
+    text-transform: capitalize;
+    font-weight: 9000;
+    font-family: 'Merriweather', serif;
+} */
+
+/* a{
+    text-align: right;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:hover{
+    font-size: 18px;
+    color: red;
+    text-decoration: underline;
+}
+
+a:visited{
+
+}
+
+a:active{
+
+}
+
+a:link{
+    
+}
+
+p{
+    text-indent: 50px;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+}
+
+p:hover{
+    font-size: 36px;
+    color: green;
+} */
+
+
+/* ul{
+    list-style-type: lower-roman;
+} */
+
+
+/* table{
+    width: 750px;
+}
+
+table, tr, th,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    text-align:center;
+} */
+
+
+/* div{
+    height: 150px;
+    background-color: #c76565;
+    overflow: scroll;
+} */
+
+/* a{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+} */
+
+/* img{
+    display: block;
+    margin: auto;
+    float: right;
+} */
+
+
+
+/* descendent selector */
+/* .outer_div p{     
+    background-color: red;  
+} */
+
+/* child selector */
+/* .outer_div > p{     
+    background-color: red;  
+} */
+
+
+
+/* adjacent sibling selector */
+/* .outer_div  + p{
+    background-color: red;
+} */
+
+
+/* general sibling selector */
+.outer_div ~ p{
+    background-color: red;
+}
