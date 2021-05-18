@@ -1,0 +1,51 @@
+html, body{
+    height:200vh;
+    margin: 0;
+    padding: 0;
+}
+
+.first_section{
+    height:100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:80%;
+    height:70%; 
+    display: flex;
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo > h1{
+    font-size: 55px;
+    color: #1877f2;
+    margin-bottom: 10px;
+}
+
+.logo > h3{
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.form{
+    flex: 1;
+}
+
+.form .wrapper{
+    border: 5px solid black;
+    height: 456px;
+    width: 380px;
+    background-color: #fff;
+}
+
+.form input{
+    display: block;
+    width: 90%; 
+    margin: auto;
+}
