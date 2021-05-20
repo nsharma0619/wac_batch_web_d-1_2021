@@ -1,0 +1,33 @@
+html, body{
+    height: 200%;
+
+}
+.container{
+    background-color: aliceblue;
+    height: 100%;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: red;
+}
+
+/* .box2{
+    position: relative;
+    left: 50px;
+    top: 50px;
+} */
+
+/* .box2{
+    position: absolute;
+    left: 200px;
+    top : 0;
+} */
+
+.box2{
+    position: sticky;
+    left: 200px;
+    top : 0;
+}
