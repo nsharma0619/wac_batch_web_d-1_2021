@@ -31,12 +31,14 @@ body{
 .leftcolumn{
     width: 75%;
     float: left;
+    clear: both;
 }
 
 .rightcolumn{
     width: 25%;
     float: left;
     padding-left: 20px;
+    clear: right;
 }
 
 .card{
@@ -51,11 +53,11 @@ body{
     padding: 20px;
 }
 
-.row:after{
+/* .row:after{
     display: table;
     content: "";
     clear: both;
-}
+} */
 
 .footer{
     padding: 20px;
